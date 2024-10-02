@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffffff 50%, #b4d7f4 50%);
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.login-form {
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 42px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    color: #aaa;
+}
+
+input {
+    width: 65%;
+    padding: 8px 33px; /* Increased padding to accommodate icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border: 1px solid #4facfe;
+}
+
+.login-button {
+    background-color: #4facfe;
+    color: white;
+    border: none;
+    padding: 10px 2px; 
+    border-radius: 19px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px; 
+    width: 90%; 
+    position: relative;
+}
+
+.login-button:hover {
+    background-color: #00f2fe;
+}
+
+
+.message {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(16, 16, 16);
+}
+
+.forgot-password {
+    text-align: left;
+    margin: 10px 0;
+
+}
+
+.forgot-password a {
+    color: #4facfe;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.forgot-password a:hover {
+    color: #00f2fe;
+    text-decoration: underline;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px; 
+    display: block; 
+}
+
+h2{
+    text-align: center;
+}
